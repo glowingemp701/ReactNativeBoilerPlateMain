@@ -1,0 +1,72 @@
+root/
+├── android/              // Android native files (auto-generated)
+├── ios/                  // iOS native files (auto-generated)
+├── src/                  // Main application code
+│   ├── assets/           // Static resources
+│   │   ├── images/       // Static images
+│   │   ├── fonts/        // Custom fonts
+│   │   └── icons/        // SVG or other icons
+│   ├── components/       // Reusable UI components
+│   │   ├── Button.js
+│   │   └── Input.js
+│   ├── screens/          // Screen components for navigation
+│   │   ├── HomeScreen.js
+│   │   ├── ProfileScreen.js
+│   │   └── SettingsScreen.js
+│   ├── navigation/       // Navigation configuration
+│   │   ├── AppNavigator.js
+│   │   ├── TabNavigator.js
+│   │   └── AuthNavigator.js
+│   ├── redux/            // Redux state management
+│   │   ├── store.js
+│   │   └── slices/       // Feature-based Redux slices
+│   │       ├── userSlice.js
+│   │       └── themeSlice.js
+│   ├── hooks/            // Custom hooks
+│   │   ├── useAuth.js
+│   │   └── useFetch.js
+│   ├── context/          // Context API for state management
+│   │   ├── AuthContext.js
+│   │   └── ThemeContext.js
+│   ├── utils/            // Utility functions and helpers
+│   │   ├── apiUtils.js
+│   │   ├── formatDate.js
+│   │   └── logger.js     // Custom logger for debugging
+│   ├── services/         // External API calls and integrations
+│   │   ├── apiClient.js
+│   │   ├── authService.js
+│   │   └── userService.js
+│   ├── config/           // Environment configurations
+│   │   ├── config.js
+│   │   └── endpoints.js
+│   ├── styles/           // Global styles and themes
+│   │   ├── colors.js
+│   │   ├── spacing.js
+│   │   └── typography.js // Fonts and text styles
+│   ├── i18n/             // Localization files
+│   │   ├── en.json
+│   │   └── es.json
+│   ├── constants/        // App-wide constants
+│   │   └── apiEndpoints.js
+│   ├── middlewares/      // Custom middleware logic
+│   │   └── errorHandler.js
+│   ├── validators/       // Form validation logic
+│   │   └── authValidation.js
+│   └── App.js            // Entry point of the application
+├── tests/                // Unit and integration tests
+│   ├── components/       // Tests for components
+│   ├── screens/          // Tests for screens
+│   └── utils/            // Tests for utility functions
+├── e2e/                  // End-to-end testing
+│   ├── tests/            // End-to-end test cases
+│   └── config/           // E2E test configuration
+├── docs/                 // Project documentation
+│   ├── setup.md          // Local setup instructions
+│   └── contributing.md   // Contribution guidelines
+├── .eslintrc.js          // ESLint configuration
+├── .prettierrc           // Prettier configuration
+├── babel.config.js       // Babel configuration
+├── metro.config.js       // Metro bundler configuration
+├── package.json          // Project dependencies and scripts
+├── README.md             // Project documentation
+└── .env                  // Environment variables
